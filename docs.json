@@ -1,11 +1,11 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Vero Doc's",
+  "name": "Vero Docs",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#36a6cf",
+    "light": "#d1ecf6",
+    "dark": "#1d5a71"
   },
   "favicon": "/favicon.svg",
   "navigation": {
@@ -89,14 +89,14 @@
     }
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/logo/vlogo.svg",
+    "dark": "/logo/vlogo.svg"
   },
   "navbar": {
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:support@veroscribe.com"
       }
     ],
     "primary": {
