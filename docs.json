@@ -70,17 +70,17 @@
       "anchors": [
         {
           "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
+          "href": "https://docs.veroscribe.com/",
           "icon": "book-open-cover"
         },
         {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
+          "anchor": "Blog",
+          "href": "https://www.veroscribe.com/blog",
+          "icon": "newspaper"
         },
         {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
+          "anchor": "Changelog",
+          "href": "https://www.veroscribe.com/blog",
           "icon": "newspaper"
         }
       ]
@@ -93,13 +93,13 @@
   "navbar": {
     "links": [
       {
-        "label": "Support",
+        "label": "Email Support",
         "href": "mailto:support@veroscribe.com"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
+      "label": "Docs",
       "href": "https://docs.veroscribe.com/"
     }
   },
