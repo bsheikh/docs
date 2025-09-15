@@ -18,7 +18,6 @@
     ],
     "global": {
       "anchors": [
-        { "anchor": "Documentation", "href": "https://docs.veroscribe.com/", "icon": "book-open-cover" },
         { "anchor": "Blog", "href": "https://www.veroscribe.com/blog", "icon": "newspaper" }
       ]
     }
