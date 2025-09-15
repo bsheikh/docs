@@ -2,104 +2,33 @@
   "$schema": "https://mintlify.com/docs.json",
   "theme": "willow",
   "name": "Vero Docs",
-  "colors": {
-    "primary": "#36a6cf",
-    "light": "#d1ecf6",
-    "dark": "#1d5a71"
-  },
+  "colors": { "primary": "#36a6cf", "light": "#d1ecf6", "dark": "#1d5a71" },
   "favicon": "/favicon.svg",
   "navigation": {
     "tabs": [
       {
         "tab": "Guides",
         "groups": [
-          {
-            "group": "Getting started",
-            "pages": [
-              "Guickstart Guide"
-            ]
-          },
-          {
-            "group": "Customization",
-            "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }
+          { "group": "Getting started", "pages": ["quickstart"] },
+          { "group": "Build your note", "pages": ["notecustomization", "templates", "learn", "snippets"] },
+          { "group": "Powerful tools", "pages": ["verochat", "insights"] },
+          { "group": "Data & privacy", "pages": ["datamanagement"] }
         ]
       }
     ],
     "global": {
       "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://docs.veroscribe.com/",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://www.veroscribe.com/blog",
-          "icon": "newspaper"
-        },
-        {
-          "anchor": "Changelog",
-          "href": "https://www.veroscribe.com/blog",
-          "icon": "newspaper"
-        }
+        { "anchor": "Documentation", "href": "https://docs.veroscribe.com/", "icon": "book-open-cover" },
+        { "anchor": "Blog", "href": "https://www.veroscribe.com/blog", "icon": "newspaper" },
+        { "anchor": "Changelog", "href": "https://www.veroscribe.com/blog", "icon": "newspaper" }
       ]
     }
   },
-  "logo": {
-    "light": "/logo/verologo.svg",
-    "dark": "/logo/verologo.svg"
-  },
+  "logo": { "light": "/logo/verologo.svg", "dark": "/logo/verologo.svg" },
   "navbar": {
-    "links": [
-      {
-        "label": "Email Support",
-        "href": "mailto:support@veroscribe.com"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Docs",
-      "href": "https://docs.veroscribe.com/"
-    }
+    "links": [{ "label": "Email Support", "href": "mailto:support@veroscribe.com" }],
+    "primary": { "type": "button", "label": "Docs", "href": "https://docs.veroscribe.com/" }
   },
-  "contextual": {
-    "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
-  },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
-    }
-  }
+  "contextual": { "options": ["copy", "view", "chatgpt", "claude", "perplexity", "mcp", "cursor", "vscode"] },
+  "footer": { "socials": {} }
 }
