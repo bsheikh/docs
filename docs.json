@@ -27,6 +27,5 @@
     "links": [{ "label": "Email Support", "href": "mailto:support@veroscribe.com" }],
     "primary": { "type": "button", "label": "Docs", "href": "https://docs.veroscribe.com/" }
   },
-  "contextual": { "options": ["copy", "view", "chatgpt", "claude", "perplexity", "mcp", "cursor", "vscode"] },
   "footer": { "socials": {} }
 }
