@@ -12,7 +12,7 @@
           { "group": "Getting started", "pages": ["quickstart"] },
           { "group": "Build your note", "pages": ["notecustomization", "templates", "learn", "snippets"] },
           { "group": "Powerful tools", "pages": ["verochat", "insights"] },
-          { "group": "Data & privacy", "pages": ["datamanagement"] }
+          { "group": "Other resources", "pages": ["datamanagement", "traineediscount"] }
         ]
       }
     ],
