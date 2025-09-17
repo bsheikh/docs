@@ -1,0 +1,52 @@
+---
+title: "ICD Codes"
+description: "Add ICD-10 and ICD-10-CA fields to your templates so Vero can surface the right codes from your note context."
+---
+
+## What this does
+
+Add ICD fields to a template. Vero reads the encounter note and proposes the most relevant code, ready to insert.
+
+<Info>
+  Supports **ICD-10** and **ICD-10-CA**. Pick the one your region uses.
+</Info>
+
+## Add ICD fields to a template
+
+1. Open **Templates** → pick a template → **Edit**.
+2. Click **Inserts**.
+3. Add either fields:
+
+```
+ICD-10 Code: [Enter the most clinically relevant ICD-10 code for this encounter]
+```
+
+```
+ICD-10-CA Code: [Enter the most clinically relevant ICD-10-CA code for this encounter]
+```
+
+4. Save the template.
+
+<Tip>
+  Place ICD fields after **Assessment** or **Diagnosis** for cleaner output.
+</Tip>
+
+## How Vero fills codes
+
+Vero parses your generated note and Proposes the **most likely primary code** based on the assessment and plan.
+
+<Note>
+  You can edit or override the proposed code before export.
+</Note>
+
+## Troubleshooting
+
+If the wrong code appears (e.g., low back pain): hard-code the correct code in your template for common edge cases so it always pulls correctly.
+
+```
+(ICD code for back pain is M54.5)
+```
+
+<Note>
+  Do this for high-frequency items that are often misidentified. 
+</Note>
