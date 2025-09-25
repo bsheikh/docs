@@ -11,7 +11,7 @@
         "groups": [
           { "group": "Getting started", "pages": ["quickstart"] },
           { "group": "Build your note", "pages": ["notecustomization", "templates", "learn", "snippets"] },
-          { "group": "Powerful tools", "pages": ["verochat", "insights"] },
+          { "group": "Powerful tools", "pages": ["verochat", "insights", "icdcodes"] },
           { "group": "Other resources", "pages": ["datamanagement", "traineediscount"] }
         ]
       }
